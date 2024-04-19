@@ -1,6 +1,6 @@
 import scrapy
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.document_transformers import Html2TextTransformer
+# from langchain.text_splitter import RecursiveCharacterTextSplitter
+# from langchain.document_transformers import Html2TextTransformer
 from w3lib.html import remove_tags
 from bs4 import BeautifulSoup
 
@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 class WebspiderSpider(scrapy.Spider):
     name = "webspider"
     # allowed_domains = ["books.toscrape.com"]
-    start_urls = ["https://www.homedepot.com/p/Murray-MT100-42-in-13-5-HP-500cc-E1350-Series-Briggs-and-Stratton-Engine-6-Speed-Manual-Gas-Riding-Lawn-Tractor-Mower-MYT4213500/317475333"]
+    start_urls = ["https://www.acehardware.com/departments/tools/power-tools/cordless-drills"]
 
     def parse(self, response):
         # print(response.text)
