@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 class WebspiderSpider(scrapy.Spider):
     name = "webspider"
     # allowed_domains = ["books.toscrape.com"]
-    start_urls = ["https://www.acehardware.com/departments/tools/power-tools/cordless-drills"]
+    start_urls = ["https://www.acehardware.com/departments/tools/power-tools/cordless-drills","https://www.homedepot.com/p/Cub-Cadet-XT1-Enduro-LT-46-in-22-HP-V-Twin-Kohler-7000-Series-Engine-Hydrostatic-Drive-Gas-Riding-Lawn-Tractor-LT46/318885541"]
 
     def parse(self, response):
         # print(response.text)
