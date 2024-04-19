@@ -3,7 +3,7 @@ from langchain_community.document_loaders import AsyncChromiumLoader
 from langchain.document_transformers import Html2TextTransformer
 import openai,sys
 
-url="https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html"
+url="https://www.homedepot.com/p/Murray-MT100-42-in-13-5-HP-500cc-E1350-Series-Briggs-and-Stratton-Engine-6-Speed-Manual-Gas-Riding-Lawn-Tractor-Mower-MYT4213500/317475333"
 loader=AsyncChromiumLoader([url])
 tt=Html2TextTransformer()
 doc=tt.transform_documents(loader.load())
