@@ -15,7 +15,7 @@ NEWSPIDER_MODULE = "webscraper.spiders"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "webscraper (+http://www.yourdomain.com)"
-USER_AGENT = "Brave/Chrome/58.0.3029.110 (Windows 11.0; Win64; x64)"
+# USER_AGENT = "Brave/Chrome/58.0.3029.110 (Windows 11.0; Win64; x64)"
 
 # Obey robots.txt rules
 # ROBOTSTXT_OBEY = True
@@ -40,9 +40,9 @@ CONCURRENT_REQUESTS_PER_IP = 1
 # Override the default request headers:
 DEFAULT_REQUEST_HEADERS = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'User-Agent': USER_AGENT,
-    'Connection': 'Keep-Alive',
-    'Accept-Encoding': 'gzip, deflate',
+    # 'User-Agent': USER_AGENT,
+    # 'Connection': 'Keep-Alive',
+    # 'Accept-Encoding': 'gzip, deflate',
     'Accept-Language': 'en-US,*',
 }
 
@@ -88,16 +88,16 @@ DOWNLOADER_MIDDLEWARES_BASE = {
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
-AUTOTHROTTLE_ENABLED = True
+# AUTOTHROTTLE_ENABLED = True
 # The initial download delay
-AUTOTHROTTLE_START_DELAY = 10
+# AUTOTHROTTLE_START_DELAY = 10
 # The maximum download delay to be set in case of high latencies
 # AUTOTHROTTLE_MAX_DELAY = 60
 # The average number of requests Scrapy should be sending in parallel to
 # each remote server
 #AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
 # Enable showing throttling stats for every response received:
-AUTOTHROTTLE_DEBUG = True
+# AUTOTHROTTLE_DEBUG = True
 
 # Enable and configure HTTP caching (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
