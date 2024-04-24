@@ -65,13 +65,5 @@ class WebspiderSpider(scrapy.Spider):
                 "Specifications":x[3]},
                 index=[0]).to_csv("data.csv", mode='a', header=False)
     
-    # with open("data.json", mode='a', encoding='utf-8') as feedsjson:
-    #     feedsjson.write(json.dumps(lis, indent=2))
-    #     feedsjson.close()
-    #     with open("data.csv", mode='w', newline='', encoding='utf-8') as csvfile:
-    #         fieldnames = ['productname', 'price', 'details', 'specifications']
-    #         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    #         writer.writeheader()
-    #         for entry in lis:
-    #             writer.writerow(entry)
+   
                 
