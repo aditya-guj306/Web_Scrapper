@@ -50,8 +50,20 @@ class WebspiderSpider(scrapy.Spider):
         
         entry = chat_completion.choices[0].message.content
         lis.append(entry)
-        print(lis)
 
+    def closed(self, reason):
+        # Save the scraped data to a JSON file
+        with open("data.json", mode='w', encoding='utf-8') as json_file:
+            json.dump(lis, json_file, indent=4)
+            print("Data has been saved to data.json")
+        # Save the scraped data to a CSV file
+        with open("data.json", 'r') as j:
+            x = json.loads(j.read())
+            pd.DataFrame({"Product_Name":x[0],
+                "Price":x[1],
+                "Details":x[2],
+                "Specifications":x[3]},
+                index=[0]).to_csv("data.csv", mode='a', header=False)
     
     # with open("data.json", mode='a', encoding='utf-8') as feedsjson:
     #     feedsjson.write(json.dumps(lis, indent=2))
