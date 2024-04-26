@@ -10,7 +10,7 @@ import pandas as pd
 import csv
 
 GROQ_API_KEY="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"
-client = Groq( api_key=GROQ_API_KEY,)
+client = Groq( api_key=GROQ_API_KEY)
 
 lis=[]
 class WebspiderSpider(scrapy.Spider):
