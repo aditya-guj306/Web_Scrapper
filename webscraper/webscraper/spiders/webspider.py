@@ -49,6 +49,7 @@ class WebspiderSpider(scrapy.Spider):
         # print(chat_completion.choices[0].message.content)
         
         entry = chat_completion.choices[0].message.content
+        print(entry)
         lis.append(entry)
 
     def closed(self, reason):
@@ -59,11 +60,11 @@ class WebspiderSpider(scrapy.Spider):
         # Save the scraped data to a CSV file
         with open("data.json", 'r') as j:
             x = json.loads(j.read())
-            pd.DataFrame({"Product_Name":x[0],
+            pd.DataFrame({"ProductName":x[0],
                 "Price":x[1],
                 "Details":x[2],
                 "Specifications":x[3]},
-                index=[0]).to_csv("data.csv", mode='a', header=False)
+                index=False).to_csv("data.csv", mode='a', header=False)
     
    
                 
