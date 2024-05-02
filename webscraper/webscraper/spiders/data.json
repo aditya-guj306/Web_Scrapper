@@ -1,32 +1,44 @@
 [
     {
+        "productname": "Trucker Hat",
+        "price": 38,
+        "details": "Unissex hats from lululemon athletica",
+        "specifications": "Color: Bone, Sizes: S/M (not available), L/XL",
+        "url": "https://shop.lululemon.com/p/hats/Trucker-Hat/_/prod11020363?color=27597"
+    },
+    {
+        "productname": "Delaney Marble Floor Lamp",
+        "price": 399,
+        "details": "Contract Grade | Bestseller",
+        "specifications": "Earn up to 10% in rewards \u00b9 today with a new Pottery Barn credit card. Learn More",
+        "url": "https://www.potterybarn.com/products/delaney-marble-floor-lamp/?pkey=cfloor-lamps"
+    },
+    {
+        "productname": "Garmin Vivoactive 5 GPS Smartwatch",
+        "price": 34999,
+        "details": "Designed with a bright, colorful AMOLED display, get a more complete picture of your health, thanks to the battery life of up to 11 days in smartwatch mode. BodyBattery energy monitoring helps you understand when you\u2019re charged up or need to rest, with even more personalized insights based on sleep, naps, stress levels, workouts, and more. Get a sleep score and personalized sleep coaching for how much sleep you need \u2014 and get tips on how to improve plus key metrics such as HRV status to better understand your health. Find new ways to keep your body moving with more than 30 built-in indoor and GPS sports apps, including apps for active wheelchair users \u2014 plus advanced training features to keep you going strong. When paired to your smartphone, v\u00edvoactive 5 makes it easy to receive texts, emails, and other smart notifications right from your wrist. Plus, enjoy connectivity features such as music storage, GarminPay contactless payments, and more.",
+        "specifications": "Bright AMOLED display, up to 11 days of battery life, BodyBattery energy monitoring, sleep score and coaching, wrist-based heart rate, morning report, fitness age, stress tracking, menstrual cycle and pregnancy tracking, meditation, advanced training features, preloaded workouts, wheelchair mode, automatic nap detection, battery energy monitoring, water rating: 5 ATM, GPS, GLONASS, and Galileo satellite reception, barometric altimeter, compass, accelerometer, thermometer, ambient light sensor, Garmin Pay contactless payments, smart notifications, music storage, and safety and tracking features.",
+        "url": "https://www.bjs.com/product/garmin-vivoactive-5-gps-smartwatch/3000000000005027783"
+    },
+    {
         "productname": "Murray MT100 42 in. 13.5 HP 500cc E1350 Series Briggs and Stratton Engine 6-Speed Manual Gas Riding Lawn Tractor Mower",
         "price": 1799,
         "details": "13.5 HP 500 cc Briggs and Stratton engine, 6-speed manual transmission, 42 in. cut with twin blades and anti-scalp wheels",
-        "specifications": "42 in. cut, 13.5 HP, 500cc, E1350 Series Briggs and Stratton Engine, 6-speed manual transmission, gas-powered, riding lawn tractor mower"
-    },
-    {
-        "productname": "Cub Cadet XT1 Enduro LT 46 in. 22 HP V-Twin Kohler 7000 Series Engine Hydrostatic Drive Gas Riding Lawn Tractor",
-        "price": 2349,
-        "details": "Smooth Tuff Torq TL-200 Hydrostatic Transmission 46 in. Deck with Twin Blade System with S-Blade Hole Pattern",
-        "specifications": "22 HP 725 cc Kohler 7000 Series Twin Cylinder Engine"
+        "specifications": "Model # MYT4213500, Store SKU # 1008100443",
+        "url": "https://www.homedepot.com/p/Murray-MT100-42-in-13-5-HP-500cc-E1350-Series-Briggs-and-Stratton-Engine-6-Speed-Manual-Gas-Riding-Lawn-Tractor-Mower-MYT4213500/317475333"
     },
     {
         "productname": "Murray 21 in. 140 cc Briggs and Stratton Walk Behind Gas Push Lawn Mower with Height Adjustment and Prime 'N Pull Start",
         "price": 299,
-        "details": "140cc Briggs and Stratton engine with Prime N Pull start\n11 in high rear wheels for optimal maneuverability on all terrain\n6-position, 2-point front and rear height adjustment",
-        "specifications": "21 in. lawn mower\nGas-powered\nPush mower\n140 cc engine\nPrime 'N Pull start\n11 in high rear wheels\n6-position, 2-point height adjustment"
-    },
-    {
-        "productname": "Yard Machines 20 in. 125 cc OHV Briggs and Stratton Gas Walk Behind Push Mower",
-        "price": 282,
-        "details": "Powered by 125 cc Briggs & Stratton 300e series engine, 20 in. cutting deck with side discharge covers a wide range, Fully assembled in the box - just unfold the handle",
-        "specifications": "20 in. cutting deck, 125 cc OHV Briggs and Stratton Gas engine"
+        "details": "140cc Briggs and Stratton engine with Prime N Pull start, 11 in high rear wheels for optimal maneuverability on all terrain, 6-position, 2-point front and rear height adjustment",
+        "specifications": "21 in. lawn mower, gas-powered, push mower, walk-behind mower, 140 cc engine, Briggs and Stratton engine, Prime N Pull start, 11 in high rear wheels, 6-position height adjustment, 2-point height adjustment, manual push mower",
+        "url": "https://www.homedepot.com/p/Murray-21-in-140-cc-Briggs-and-Stratton-Walk-Behind-Gas-Push-Lawn-Mower-with-Height-Adjustment-and-Prime-N-Pull-Start-MNA152702/314250724"
     },
     {
         "productname": "Powercare 20 oz. SAE 30 Tractor and Lawn Mower Engine Oil",
         "price": 2030,
         "details": "For 4-cycle engines, SAE-30, 20 oz. bottle",
-        "specifications": "Model # AP20300A, Store SKU # 460478"
+        "specifications": "Model # AP20300A, Store SKU # 460478",
+        "url": "https://www.homedepot.com/p/Powercare-20-oz-SAE-30-Tractor-and-Lawn-Mower-Engine-Oil-AP20300A/202564515"
     }
 ]
