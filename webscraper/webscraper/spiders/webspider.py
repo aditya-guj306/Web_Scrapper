@@ -116,6 +116,7 @@ class WebspiderSpider(scrapy.Spider):
         print(entry)
         # Append the Groq response directly to CSV
         self.save_to_csv(entry)
+        self.save_to_json(entry)
 
     def save_to_csv(self, groq_response):
         # Load CSV data if already exists, otherwise create new DataFrame
@@ -137,5 +138,27 @@ class WebspiderSpider(scrapy.Spider):
         df.to_csv("data.csv", index=False)
 
         print("Data appended to data.csv")
+    
+    def save_to_json(self, groq_response):
+    # Check if the JSON file exists and is non-empty
+        if os.path.exists("data.json") and os.path.getsize("data.json") > 0:
+            # Load existing data from JSON file
+            with open("data.json", "r") as json_file:
+                data = json.load(json_file)
+        else:
+            # Create new empty list
+            data = []
+    
+        # Parse Groq response to JSON
+        groq_json = json.loads(groq_response)
+    
+        # Append the Groq JSON to the list
+        data.append(groq_json)
+    
+        # Save list to JSON file
+        with open("data.json", "w") as json_file:
+            json.dump(data, json_file, indent=4)
+    
+        print("Data appended to data.json")
 
 
