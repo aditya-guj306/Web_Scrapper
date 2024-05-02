@@ -1,7 +1,32 @@
 [
-    "{\n\"productname\": \"Murray MT100 42 in. 13.5 HP 500cc E1350 Series Briggs and Stratton Engine 6-Speed Manual Gas Riding Lawn Tractor Mower\",\n\"price\": 1699,\n\"details\": \"Affordable and efficient, Murray products have been getting the job done for over 90-years. Exclusively powered by the world's leading small engines from Briggs and Stratton, Murray is a perfect fit for today's consumers who are seeking reliable, high-value products to simplify their busy lifestyles. The Murray MT100 42 in. Riding Lawn Tractor powered by a 13.5 HP 500 cc single cylinder Briggs and Stratton Engine delivers powerful performance and a superior cut up to 2 acres on 1-tank of fuel. The adjustable seat has a 13 in. mid-back padded seat for added comfort. Offering a 6-speed manual transmission, 13-cutting heights and mow-in-reverse option will allow you to always find the best cut for your grass type. This riding lawn mower also features a cup holder, headlights and a rear built-in hitch for added convenience.\",\n\"specifications\": \"Dimensions: H 41.50 in , W 52.6 in , D 64.60 in \\nDimensions Assembled Depth (in.): 64.60 in \\nAssembled Height (in.): 41.50 in \\nAssembled Width (in.): 52.6 in \\nCutting Width (in.): 42 inches \\nFront Wheel Size (in.): 15 \\nMower Deck Width (in.): 44 in \\nRear Wheel Size (in.): 20 \\nTurning Radius (in.): 18 \\nAssembly Required: Yes \\nCommercial / Residential: Residential \\nCutting Options: Side-Discharge \\nDeck Material: 13 Gauge Steel \\nDeck Type: Stamped \\nDrive Type: Rear-wheel Drive \\nEngine Displacement (cc): 500 \\nEngine Make: Briggs and Stratton \\nEngine Torque (ft.-lb.): 0 \\nFuel Tank Capacity (gal.): 1.4 gal \\nHorsepower (HP): 13.5 hp \\nIncluded with Riding Mowers: Battery(s),Engine Oil \\nLawn Mower Type: Front Motor \\nMaximum Cutting Height (in.): 4 in \\nMaximum Forward Speed (mph): 5.5 \\nMaximum Reverse Speed (mph): 2.0 \\nMinimum Cutting Height (in.): 1 in \\nMower Size: Small \\nNumber of Blades: 2 blades \\nNumber of Cylinders: Single Cylinder \\nOil Capacity (oz.): 48 \\nPower Type: Gas \\nProduct Weight (lb.): 375 lb \\nRecommended Oil Type: 10W-30 \\nReturnable: Returnable \\nTransmission Type: Gear Drive \\nWarranty / Certifications: EPA Approved, ETL Listed \\nManufacturer Warranty: 2 year limited warranty \\nTerrain Type: Flat with Obstacles, Hilly\"\n}",
-    "{\n  \"productname\": \"Cub Cadet XT1 Enduro LT 46 in. 22 HP V-Twin Kohler 7000 Series Engine Hydrostatic Drive Gas Riding Lawn Tractor LT46\",\n  \"price\": 2349,\n  \"details\": \"22 HP 725 cc Kohler 7000 Series Twin Cylinder Engine Smooth Tuff Torq TL-200 Hydrostatic Transmission 46 in. Deck with Twin Blade System with S-Blade Hole Pattern\",\n  \"specifications\": \"Store 0 in stock Free & Easy Returns In Store or Online Return this item within 30 days of purchase. Read Return Policy Download Our App How doers get more done\u2122 Need Help? Please call us at: 1-800-HOME-DEPOT (1-800-466-3337) Special Financing Available everyday* Pay & Manage Your Card Credit Offers Get $5 off when you sign up for emails with savings and tips. GO Our Other Sites The Home Depot Canada The Home Depot Me\u0301xico Pro Referral Shop Our Brands How can we help? Call 1-800-466-3337 | Text 38698 (standard carrier rates apply to texts). Stores | \u00a92000-2024 Home Depot | Privacy & Security Statement | Terms | My Preference Center | California Privacy Rights & Report | Limit the Use of My Sensitive Personal Information | Do Not Sell or Share My Personal Information | California Supply Chain Act Site Map Store Directory Provide Feedback\"\n}\n\nNote: The 'specifications' field in the provided schema seems to include information about the return policy, financing and contact information rather than the technical specifications of the product. However, I have included the information as is.",
-    "{\n\"productname\": \"Murray 21 in. 140 cc Briggs and Stratton Walk Behind Gas Push Lawn Mower with Height Adjustment and Prime 'N Pull Start\",\n\"price\": 299,\n\"details\": \"140cc Briggs and Stratton engine with Prime N Pull start\\n11 in high rear wheels for optimal maneuverability on all terrain\\n6-position, 2-point front and rear height adjustment\",\n\"specifications\": \"21 in. lawn mower\\nGas push mower\\n140 cc engine\\nPrime N Pull start system\\n11 in. high rear wheels\\n6-position, 2-point height adjustment (front and rear)\"\n}",
-    "{\n\"productname\": \"Yard Machines 20 in. 125 cc OHV Briggs and Stratton Gas Walk Behind Push Mower\",\n\"price\": 282,\n\"details\": \"Powered by 125 cc Briggs & Stratton 300e series engine\\n20 in. cutting deck with side discharge covers a wide range\\nFully assembled in the box - just unfold the handle\",\n\"specifications\": \"20 in. cutting deck\\n125 cc Briggs and Stratton OHV engine\\nGas walk behind push mower\\nSide discharge\"\n}",
-    "{\n\"productname\": \"Powercare 20 oz. SAE 30 Tractor and Lawn Mower Engine Oil\",\n\"price\": 2030,\n\"details\": \"For 4-cycle engines, SAE-30, 20 oz. bottle\",\n\"specifications\": \"178 questions & answers, available in store, special financing available, can be ordered online for store pickup or shipped\"\n}"
+    {
+        "productname": "Murray MT100 42 in. 13.5 HP 500cc E1350 Series Briggs and Stratton Engine 6-Speed Manual Gas Riding Lawn Tractor Mower",
+        "price": 1799,
+        "details": "13.5 HP 500 cc Briggs and Stratton engine, 6-speed manual transmission, 42 in. cut with twin blades and anti-scalp wheels",
+        "specifications": "42 in. cut, 13.5 HP, 500cc, E1350 Series Briggs and Stratton Engine, 6-speed manual transmission, gas-powered, riding lawn tractor mower"
+    },
+    {
+        "productname": "Cub Cadet XT1 Enduro LT 46 in. 22 HP V-Twin Kohler 7000 Series Engine Hydrostatic Drive Gas Riding Lawn Tractor",
+        "price": 2349,
+        "details": "Smooth Tuff Torq TL-200 Hydrostatic Transmission 46 in. Deck with Twin Blade System with S-Blade Hole Pattern",
+        "specifications": "22 HP 725 cc Kohler 7000 Series Twin Cylinder Engine"
+    },
+    {
+        "productname": "Murray 21 in. 140 cc Briggs and Stratton Walk Behind Gas Push Lawn Mower with Height Adjustment and Prime 'N Pull Start",
+        "price": 299,
+        "details": "140cc Briggs and Stratton engine with Prime N Pull start\n11 in high rear wheels for optimal maneuverability on all terrain\n6-position, 2-point front and rear height adjustment",
+        "specifications": "21 in. lawn mower\nGas-powered\nPush mower\n140 cc engine\nPrime 'N Pull start\n11 in high rear wheels\n6-position, 2-point height adjustment"
+    },
+    {
+        "productname": "Yard Machines 20 in. 125 cc OHV Briggs and Stratton Gas Walk Behind Push Mower",
+        "price": 282,
+        "details": "Powered by 125 cc Briggs & Stratton 300e series engine, 20 in. cutting deck with side discharge covers a wide range, Fully assembled in the box - just unfold the handle",
+        "specifications": "20 in. cutting deck, 125 cc OHV Briggs and Stratton Gas engine"
+    },
+    {
+        "productname": "Powercare 20 oz. SAE 30 Tractor and Lawn Mower Engine Oil",
+        "price": 2030,
+        "details": "For 4-cycle engines, SAE-30, 20 oz. bottle",
+        "specifications": "Model # AP20300A, Store SKU # 460478"
+    }
 ]
