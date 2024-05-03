@@ -109,7 +109,7 @@ class WebspiderSpider(scrapy.Spider):
                 },
                 {
                     "role": "user",
-                    "content": "productname: [str] ,price: [int] ,details: [str], specifications: [str] follow this schema and give output in json format and always consider price that are associated with currency symbols"
+                    "content": "productname: [str] ,price: [float] ,details: [str], specifications: [str] follow this schema and give output in json format and always consider price that are followed or precedded by a currency symbol"
                 }
             ],
             model="mixtral-8x7b-32768",
