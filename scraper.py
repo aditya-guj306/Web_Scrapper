@@ -1,3 +1,7 @@
+# from scrapegraphai.graphs import SmartScraperGraph
+# from langchain_community.document_loaders import AsyncChromiumLoader
+import nest_asyncio
+nest_asyncio.apply()
 from scrapegraphai.graphs import SmartScraperGraph
 from scrapegraphai.utils import prettify_exec_info
 
@@ -5,7 +9,7 @@ groq_key = "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"
 
 graph_config = {
     "llm": {
-        "model": "groq/gemma-7b-it",
+        "model": "groq/llama3-8b-8192",
         "api_key": groq_key,
         "temperature": 0
     },
@@ -18,8 +22,8 @@ graph_config = {
 }
 
 smart_scraper_graph = SmartScraperGraph(
-    prompt="List me all the projects with their description and the author.",
-    source="https://perinim.github.io/projects",
+    prompt="List me all the quotes",
+    source="https://quotes.toscrape.com/",
     config=graph_config
 )
 
