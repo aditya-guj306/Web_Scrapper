@@ -9,7 +9,7 @@
 # import pandas as pd
 # import csv
 
-# GROQ_API_KEY="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"
+# GROQ_API_KEY="gsk_8CHVRGy************************stpQ3ZcMa4"
 # client = Groq( api_key=GROQ_API_KEY)
 
 # lis=[]
@@ -76,7 +76,7 @@ from groq import Groq
 import json
 import pandas as pd
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "gsk_8CHVRGy*********************************************ukstpQ3ZcMa4"
 client = Groq(api_key=GROQ_API_KEY)
 
 class WebspiderSpider(scrapy.Spider):
